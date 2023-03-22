@@ -13,7 +13,7 @@ public class WorldBuilder : MonoBehaviour
     [SerializeField]
     GameObject floorPrefab;
     [SerializeField]
-    GameObject Cucumber;
+    GameObject FlowerPot;
     [SerializeField]
     GameObject WateringCan;
     
@@ -37,8 +37,9 @@ public class WorldBuilder : MonoBehaviour
     {
         Instantiate(floorPrefab, plane.center, Quaternion.identity);
 
-        Cucumber.transform.position = plane.center;
-        Debug.Log(Cucumber + " placed");
+        FlowerPot.transform.position = plane.center;
+        FlowerPot.SetActive(true);
+        Debug.Log(FlowerPot + " placed");
 
         WateringCan.transform.position = plane.center + Vector3.left;
         WateringCan.SetActive(true);
