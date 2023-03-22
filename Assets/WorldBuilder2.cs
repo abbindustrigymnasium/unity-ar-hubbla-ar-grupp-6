@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 
-public class WorldBuilder : MonoBehaviour
+public class WorldBuilder2 : MonoBehaviour
 {
     [SerializeField]
     ARPlaneManager planeManager;
