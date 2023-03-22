@@ -3,7 +3,11 @@ guid: 35e27e4324df44bc29cf03b543387697
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - planeManager: {instanceID: 0}
+  - raycastManager: {instanceID: 0}
+  - floorPrefab: {instanceID: 0}
+  - Gurka: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
