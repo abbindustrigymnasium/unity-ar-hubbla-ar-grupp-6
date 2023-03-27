@@ -27,6 +27,7 @@ public class Timer : MonoBehaviour
         else
         {
             time = 0;
+            
         }
         DisplayTime(time);  
     }
