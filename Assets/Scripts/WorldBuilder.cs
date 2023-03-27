@@ -16,6 +16,9 @@ public class WorldBuilder : MonoBehaviour
     GameObject FlowerPot;
     [SerializeField]
     GameObject WateringCan;
+    [SerializeField]
+    GameObject Sign;
+
     
 
     List<ARRaycastHit> raycastHits = new List<ARRaycastHit>();
@@ -43,5 +46,8 @@ public class WorldBuilder : MonoBehaviour
 
         WateringCan.transform.position = plane.center + Vector3.left;
         WateringCan.SetActive(true);
+
+        Sign.transform.position = plane.center + Vector3.right;
+        Sign.SetActive(true);
     }
 }
