@@ -8,9 +8,16 @@ public class GrowNewCucumber : MonoBehaviour
 {
     [SerializeField] private GameObject Gurka;
     private int timesGrown;
+    public TextMeshProUGUI tidtext;
     private void Start()
     {
         timesGrown = 0;
+    }
+
+    private void OnEnable()
+    {
+       tidtext.GetComponent<Timer>().enabled = true;
+
     }
 
     private void OnMouseDown()
