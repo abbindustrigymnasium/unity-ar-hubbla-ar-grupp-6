@@ -25,7 +25,9 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+
   controlID: 7623
+
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,7 +70,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1440, y: 2960}
+  m_TargetSize: {x: 1080, y: 2160}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -77,16 +79,18 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
+
   m_SelectedSizes: 09000000000000000d0000000b000000000000000000000000000000000000000000000000000000
+
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -480
-    m_HBaseRangeMax: 480
-    m_VBaseRangeMin: -986.6667
-    m_VBaseRangeMax: 986.6667
+    m_HBaseRangeMin: -360
+    m_HBaseRangeMax: 360
+    m_VBaseRangeMin: -720
+    m_VBaseRangeMax: 720
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -106,7 +110,7 @@ MonoBehaviour:
       y: 21
       width: 389.33334
       height: 332
-    m_Scale: {x: 0.16824324, y: 0.16824324}
+    m_Scale: {x: 0.23055555, y: 0.23055555}
     m_Translation: {x: 194.66667, y: 166}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -114,12 +118,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1157.0549
-      y: -986.6667
-      width: 2314.1099
-      height: 1973.3334
+      x: -844.3374
+      y: -720
+      width: 1688.6748
+      height: 1440
     m_MinimalGUI: 1
-  m_defaultScale: 0.16824324
+  m_defaultScale: 0.23055555
   m_LastWindowPixelSize: {x: 584, y: 529.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -189,9 +193,11 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 5ca8fdff04a9fdff7c3dfeff6ab7ffffc4b7ffffdefaffff0ab4000020bc0000
+
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -239,7 +245,10 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+
   controlID: 7624
+
+
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,7 +273,9 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+
   controlID: 7625
+
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1213,9 +1224,11 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
+
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1265,9 +1278,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+
     m_Target: 1.9192576
     speed: 2
     m_Value: 1.9192576
+
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1392,23 +1407,29 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+
     - Assets/Scripts
+
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+
   - Assets/Scripts
+
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\21ollrab\Documents\GitHub\unity-ar-hubbla-ar-grupp-6
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+
     scrollPos: {x: 0, y: 60}
     m_SelectedIDs: d4b20000
     m_LastClickedID: 45780
     m_ExpandedIDs: 00000000bab20000bcb2000000ca9a3b
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1436,7 +1457,9 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+
     m_ExpandedIDs: 00000000bab20000bcb2000000ca9a3b
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1461,9 +1484,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
+
     m_ExpandedInstanceIDs: c6230000ec0100008ec40000848a0000aee600000000000022c800004eb601005c740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1488,7 +1513,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 21.333313}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -1593,7 +1618,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 48
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
