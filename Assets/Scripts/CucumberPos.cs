@@ -12,10 +12,10 @@ public class CucumberPos : MonoBehaviour
     {
         
     }
-
+    
     // Update is called once per frame
     void Update()
     {
-        Cucumber.transform.position = gameObject.transform.position + Vector3.up;
+        Cucumber.transform.position = gameObject.transform.position + new Vector3(0,0.46f,0);
     }
 }
