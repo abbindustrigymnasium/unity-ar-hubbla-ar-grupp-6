@@ -22,6 +22,7 @@ public class GrowNewCucumber : MonoBehaviour
 
     private void OnMouseDown()
     {
+        AudioManager.instance.Play("Watering");
         Gurka.SetActive(true);
         timesGrown++;
 

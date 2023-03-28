@@ -17,6 +17,7 @@ public class CucumberClick : MonoBehaviour
 
     private void OnMouseDown()
     {
+        AudioManager.instance.Play("Crunch");
         gameObject.SetActive(false);
         Debug.Log("Gurka Äten!");
         Nextcucumber.SetActive(true);

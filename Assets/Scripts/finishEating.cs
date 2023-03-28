@@ -18,6 +18,7 @@ public class finishEating : MonoBehaviour
 
     private void OnMouseDown()
     {
+        AudioManager.instance.Play("Crunch");
         CucumberInt++;
         GurkaIntAdd(CucumberInt.ToString());
         gameObject.SetActive(false);
