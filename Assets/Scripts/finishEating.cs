@@ -8,7 +8,7 @@ public class finishEating : MonoBehaviour
 {
     [SerializeField] private GameObject WateringCan;
     public TextMeshProUGUI CucumberText;
-    private int CucumberInt;
+    public static int CucumberInt;
 
 
     private void Start()
