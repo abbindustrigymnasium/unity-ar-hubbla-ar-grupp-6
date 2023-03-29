@@ -42,7 +42,7 @@ public class WorldBuilderInTimeEat : MonoBehaviour
         FlowerPot.SetActive(true);
         Debug.Log(FlowerPot + " placed");
 
-        WateringCan.transform.position = plane.center + Vector3.left;
+        WateringCan.transform.position = plane.center + new Vector3(-0.35f,0f,0f);
         WateringCan.SetActive(true);
     }
 }

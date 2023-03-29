@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
 
     public float time = 30;
     public TextMeshProUGUI timeText;
+    public AudioSource BurpSound;
 
     // Start is called before the first frame update
     private void Start()
@@ -27,6 +28,13 @@ public class Timer : MonoBehaviour
         }
         else
         {
+
+            if(finishEating.CucumberInt >= 12)
+            {
+                BurpSound.Play();
+                Debug.Log("BUUUURRRRPPPPP!!!");
+            }
+
             time = 0;
             SceneManager.LoadScene("GameOverScene");
         }
@@ -45,6 +53,5 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(TimeToDisplay % 60);   
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
-
 }
         
