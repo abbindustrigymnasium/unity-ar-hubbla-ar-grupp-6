@@ -9,6 +9,7 @@ public class GrowNewCucumber : MonoBehaviour
     [SerializeField] private GameObject Gurka;
     private int timesGrown;
     public TextMeshProUGUI tidtext;
+    public AudioSource WaterSwirl;
     private void Start()
     {
         timesGrown = 0;
@@ -24,7 +25,7 @@ public class GrowNewCucumber : MonoBehaviour
     {
         Gurka.SetActive(true);
         timesGrown++;
-
+        WaterSwirl.Play();
         Debug.Log(timesGrown);
     }
 }

@@ -9,7 +9,7 @@ public class finishEating : MonoBehaviour
     [SerializeField] private GameObject WateringCan;
     public TextMeshProUGUI CucumberText;
     public static int CucumberInt;
-
+    public AudioSource Crunch;
 
     private void Start()
     {
@@ -23,6 +23,7 @@ public class finishEating : MonoBehaviour
         gameObject.SetActive(false);
         Debug.Log("YUMMY!");
         WateringCan.SetActive(true);
+        Crunch.Play();
     }
 
     public void GurkaIntAdd(string num)
