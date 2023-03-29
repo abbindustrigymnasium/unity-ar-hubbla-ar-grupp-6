@@ -8,6 +8,11 @@ public class ButtonPress : MonoBehaviour
     public GameObject PauseMenu;
 
     // Start is called before the first frame update
+
+    public void Start()
+    {
+        Time.timeScale = 1.0f;
+    }
     public void ChangeScene(string scenename)
     {
         Debug.Log("sceneName to load: " + scenename);

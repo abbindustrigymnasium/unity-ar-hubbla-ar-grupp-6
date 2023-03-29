@@ -44,10 +44,10 @@ public class WorldBuilder : MonoBehaviour
         FlowerPot.SetActive(true);
         Debug.Log(FlowerPot + " placed");
 
-        WateringCan.transform.position = plane.center + Vector3.left;
+        WateringCan.transform.position = plane.center + new Vector3(-0.35f, 0, 0);
         WateringCan.SetActive(true);
 
-        Sign.transform.position = plane.center + Vector3.right;
+        Sign.transform.position = plane.center + new Vector3(0.35f,0,0);
         Sign.SetActive(true);
     }
 }
